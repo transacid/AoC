@@ -31,7 +31,7 @@ func main() {
 	var increase, tmp int
 	last := s[0] + s[1] + s[2]
 
-	for k, _ := range s {
+	for k := range s {
 		if k+2 < len(s) {
 			tmp = s[k] + s[k+1] + s[k+2]
 			if tmp > last {
