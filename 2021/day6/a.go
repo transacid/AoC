@@ -14,7 +14,7 @@ func check(e error) {
 }
 
 func input() []int {
-	f, err := os.ReadFile("example.txt")
+	f, err := os.ReadFile("input.txt")
 	check(err)
 	s := bytes.TrimRight(f, "\n\n")
 	k := bytes.Split(s, []byte(","))
