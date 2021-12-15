@@ -15,7 +15,7 @@ if __name__ == '__main__':
     d = dict(x.split(" -> ") for x in inputs.split("\n"))
     for i in range(10):
         l = []
-        for i, c in enumerate(tl):
+        for i, _ in enumerate(tl):
             l.append(tl[i])
             try:
                 l.append(d[tl[i:i+2]])
