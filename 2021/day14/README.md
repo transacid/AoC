@@ -1,0 +1,1 @@
+it was easier for me to first implement it in python as I'm more familiar with that. the go implementation basically does the same but looks a lot more verbose. I can only solve the first part as I don't have a huge understanding of algorithms and I have no idea on how to make the list smaller.
