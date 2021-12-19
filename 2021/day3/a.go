@@ -32,7 +32,6 @@ func rf() [][]int {
 			r = append(r, b)
 		}
 		l = append(l, r)
-		// fmt.Printf("%d\n", r)
 	}
 	return l
 }
