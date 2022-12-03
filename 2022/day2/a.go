@@ -22,7 +22,7 @@ func main() {
 }
 
 func gfi() []byte {
-	f, err := os.ReadFile("example.txt")
+	f, err := os.ReadFile("input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
