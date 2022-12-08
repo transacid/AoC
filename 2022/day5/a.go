@@ -50,7 +50,6 @@ func buildstack(line string, stacks map[int][]string) map[int][]string {
 	for i, c := range sl {
 		if i%4 == 1 {
 			if c != " " {
-				// fmt.Println(c)
 				stacks[counter] = append(stacks[counter], c)
 			}
 			counter++
@@ -62,7 +61,6 @@ func buildstack(line string, stacks map[int][]string) map[int][]string {
 func buildinstruction(line string) []string {
 	re := regexp.MustCompile(`move (\d+) from (\d+) to (\d+)`)
 	ins := re.FindStringSubmatch(line)
-	// fmt.Println(ins)
 	return ins[1:]
 }
 
