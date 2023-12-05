@@ -1,5 +1,5 @@
-**/example.txt
-.idea/
+**/example*
+go.work
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
